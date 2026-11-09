@@ -1,0 +1,15 @@
+:root { --bg:#faf6ee; --ink:#2b2a27; --muted:#6b665c; --gold:#b8892e; --card:#fffdf8; --line:#e8dfcc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.65 Georgia, "Times New Roman", serif; }
+main { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+header { text-align:center; margin-bottom:28px; }
+header img { width:120px; height:120px; border-radius:50%; border:2px solid var(--gold); }
+h1 { font-weight:normal; letter-spacing:.06em; margin:.4em 0 .1em; }
+h2 { font-weight:normal; color:var(--gold); border-bottom:1px solid var(--line); padding-bottom:4px; margin-top:2em; }
+nav { text-align:center; margin:12px 0 28px; }
+nav a { color:var(--gold); margin:0 10px; text-decoration:none; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:22px 26px; }
+.muted { color:var(--muted); font-size:15px; }
+.ur { font-family:"Noto Nastaliq Urdu", serif; direction:rtl; text-align:center; font-size:20px; }
+footer { text-align:center; color:var(--muted); font-size:14px; margin-top:40px; }
+a { color:var(--gold); }
